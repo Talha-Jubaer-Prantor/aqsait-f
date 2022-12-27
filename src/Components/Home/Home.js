@@ -10,7 +10,13 @@ const Home = () => {
       <Navbar></Navbar>
       <Carousel></Carousel>
 
+<br />
+<h1 style={{textAlign:"center",color:"white"}}>PAKAGES</h1>
+<br />
       <div className="pakages container">
+
+        
+
         <Link className="single-pakage" to="/portfolio" style={{textDecoration:"none",color:"white"}}>
           <br />
           <lord-icon

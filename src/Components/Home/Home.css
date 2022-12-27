@@ -1,0 +1,108 @@
+.pakages{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    padding-top: 40px;
+    row-gap: 30px;
+}
+
+.single-pakage{
+    /* background-image: url(../../img/wave-haikei\ \(1\).png); */
+    /* background-size: cover; */
+    background-image: linear-gradient( to top right, #040633, #7a0c5c00 );
+      background-color:#79085ba4 ;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: 25%;
+}
+
+
+
+
+
+  @media only screen and (max-width: 992px) {
+ 
+    .pakages{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        padding-top: 40px;
+    }
+    
+
+    .single-pakage{
+        /* background-image: url(../../img/wave-haikei\ \(1\).png); */
+        /* background-size: cover; */
+        background-image: linear-gradient( to top right, #040633, #7a0c5c00 );
+          background-color:#79085ba4 ;
+        height: 200px;
+        width: 200px;
+        border-radius: 15px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-left: 25%;
+
+    }
+
+  }
+
+
+
+  @media only screen and (max-width: 777px) {
+ 
+    .pakages{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding-top: 40px;
+    }
+    
+
+    .single-pakage{
+        /* background-image: url(../../img/wave-haikei\ \(1\).png); */
+        /* background-size: cover; */
+        background-image: linear-gradient( to top right, #040633, #7a0c5c00 );
+          background-color:#79085ba4 ;
+        height: 200px;
+        width: 200px;
+        border-radius: 15px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-left: 8%;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 500px) {
+ 
+    .pakages{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        padding-top: 40px;
+    }
+    
+
+    .single-pakage{
+        /* background-image: url(../../img/wave-haikei\ \(1\).png); */
+        /* background-size: cover; */
+        background-image: linear-gradient( to top right, #040633, #7a0c5c00 );
+          background-color:#79085ba4 ;
+        height: 200px;
+        width: 200px;
+        border-radius: 15px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-left: 25%;
+    }
+
+  }
+
+
+
+
+

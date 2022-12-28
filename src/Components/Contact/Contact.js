@@ -1,5 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
+import "./Contact.css"
+
 const Contact = () => {
     return (
         <div>
@@ -41,7 +43,7 @@ const Contact = () => {
                             </div>
                             <div className="col-9 ps-4 pt-2">
                                 <h3 className="fw-bold text-white text-start">Phone</h3>
-                                <p className="text-start"><a className="text-decoration-none fs-5 text-white" aria-current="page" href="tel:00123456789">00123456789</a></p>
+                                <p className="text-start"><a className="text-decoration-none fs-5 text-white" aria-current="page" href="tel:+880 1923893242">+880 1923893242</a></p>
                             </div>
                         </div>
                         <div style={{ backgroundColor: '#ffffff42' }} className="row my-3 py-3 rounded">
@@ -50,7 +52,7 @@ const Contact = () => {
                             </div>
                             <div className="col-9 ps-4 pt-2">
                                 <h3 className="fw-bold text-white text-start">Email</h3>
-                                <p className="text-white text-start fs-5">info@shoe_valy.com</p>
+                                <p className="text-white text-start fs-5">contact@aqsait.com</p>
                             </div>
                         </div>
                         <div style={{ backgroundColor: '#ffffff42' }} className="row my-3 py-3 rounded">
@@ -59,7 +61,7 @@ const Contact = () => {
                             </div>
                             <div className="col-9 ps-4 pt-2">
                                 <h3 className="fw-bold text-white text-start">Address</h3>
-                                <p className="text-white text-start fs-5">www.shoe-valy.com</p>
+                                <p className="text-white text-start fs-5">www.aqsait.com</p>
                             </div>
                         </div>
                     </div>

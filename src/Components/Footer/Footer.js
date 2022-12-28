@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="container mx-auto row text-white text-start">
                 <div className="col-lg-3 col-md-6 col-12">
                     <h5 className="mb-4 text-info">About Us</h5>
-                    <p className="text-color">We have a great value of customer and we respect it.We have a best team for do this service.We are available all the time for our valuable consumer.</p>
+                    <p className="text-color">We're dedicated to helping people. We not only sell the products but rather make sure that the product adds value to your life. We also give all the ideas and solutions about the products. We want to be your loyal shopkeeper and hope that you'll be our loyal buyers too. We have the best team for doing this service.</p>
                 </div>
                 <div className="col-lg-3 col-md-6 col-12 text-start">
                     <h5 className="mb-4 text-info">Quick Links</h5>
@@ -36,21 +36,17 @@ const Footer = () => {
                     <h5 className="mb-4 text-info">Contact Info</h5>
                     <p className="text-color link-text"><span><i className="fas fa-map-marker-alt me-2"></i></span> Mirpur, Dhaka, Bangladesh</p>
                     <p className="text-color link-text"><span><i className="fas fa-phone-alt me-2"></i></span> +880 1923893242</p>
-                    <p className="text-color link-text"><span><i className="fas fa-envelope me-2"></i></span> Aqsait242@gmail.com</p>
+                    <p className="text-color link-text"><span><i className="fas fa-envelope me-2"></i></span> service@aqsait.com</p>
                 </div>
                 <div className="col-lg-3 col-md-6 col-12 text-start">
                     <h5 className="mb-4 text-info">Business Hour</h5>
                     <div className="d-flex justify-content-lg-between ftr-border text-color">
-                        <p>Monday-Friday:</p>
-                        <p>9am - 5pm.</p>
+                        <p>Saturday-Thursday:</p>
+                        <p>10am - 10pm.</p>
                     </div>
                     <div className="d-flex justify-content-lg-between ftr-border text-color">
-                        <p>Saturday:</p>
+                        <p>Friday:</p>
                         <p>10am - 2pm.</p>
-                    </div>
-                    <div className="d-flex justify-content-lg-between ftr-border text-color">
-                        <p>Sunday:</p>
-                        <p>Closed.</p>
                     </div>
                 </div>
             </div>

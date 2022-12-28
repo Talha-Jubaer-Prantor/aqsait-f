@@ -19,11 +19,13 @@
 
 .identify-sec{
   margin-top: 60px;
+  margin-bottom: 60px;
   color: rgb(255, 255, 255);
 }
 
 .identify-sec-sm{
   margin-top: 60px;
+  margin-bottom: 60px;
   display: none;
   color: rgb(255, 255, 255);
 }

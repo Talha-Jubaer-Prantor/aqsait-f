@@ -118,13 +118,14 @@ const Home = () => {
           <div style={{ textAlign: "center" }}>
             <h1>For Your Shop</h1>
             <p style={{ justifyContent: "center" }}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
-              sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!
+            Are you looking to start an niche business? Now's your chance
+              to get a jump on the competition. Aqsa IT is selling a fully
+              operational niche website, loaded with features and ready to
+              go. We've put a lot of work into this website, and we're confident
+              that it can provide a great foundation for your business. It's a
+              turnkey solution, so you don't have to worry about a long setup
+              process. If you're interested, reach out to us and we'll send you
+              more information. We look forward to hearing from you!
             </p>
           </div>
           <div style={{ textAlign: "center" }}>

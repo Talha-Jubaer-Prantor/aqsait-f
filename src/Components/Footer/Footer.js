@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="container mx-auto row text-white text-start">
                 <div className="col-lg-3 col-md-6 col-12">
                     <h5 className="mb-4 text-info">About Us</h5>
-                    <p className="text-color">We're dedicated to helping people. We not only sell the products but rather make sure that the product adds value to your life. We also give all the ideas and solutions about the products. We want to be your loyal shopkeeper and hope that you'll be our loyal buyers too. We have the best team for doing this service.</p>
+                    <p className="text-color">We're dedicated to helping people. We have the best team for doing this service.We are available all the time for our valuable consumer.</p>
                 </div>
                 <div className="col-lg-3 col-md-6 col-12 text-start">
                     <h5 className="mb-4 text-info">Quick Links</h5>

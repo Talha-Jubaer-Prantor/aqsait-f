@@ -3,7 +3,7 @@ import "./Home.css";
 import Carousel from "../Carousel/Carousel";
 import Navbar from "../Navbar/Navbar";
 import { Link } from "react-router-dom";
-import Review from "../Review/Review";
+// import Review from "../Review/Review";
 
 const Home = () => {
   return (

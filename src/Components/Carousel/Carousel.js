@@ -12,51 +12,25 @@ const Carousel = () => {
       <Carousell>
         <Carousell.Item>
           <div className="carousel-content">
-          <h1>Lorem ipsum dolor sit amet.</h1>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
-              quaerat facere nulla ab. Animi ab quod eligendi nobis eum magnam
-              dolor aliquam cum iure deserunt vitae ea, sint esse. Voluptate!
-            </p>
+              <img style={{width:"100%",borderRadius:"20px"}} src="/img/aqsait cp.png" alt="" />            
           </div>
 
-          <Carousell.Caption>
+          {/* <Carousell.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousell.Caption>
+          </Carousell.Caption> */}
         </Carousell.Item>
         <Carousell.Item>
           <div className="carousel-content">
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
-              quaerat facere nulla ab. Animi ab quod eligendi nobis eum magnam
-              dolor aliquam cum iure deserunt vitae ea, sint esse. Voluptate!
-            </p>
+          <img style={{width:"100%",borderRadius:"20px"}} src="/img/aqsa it.png" alt="" />            
           </div>
 
-          <Carousell.Caption>
+          {/* <Carousell.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousell.Caption>
+          </Carousell.Caption> */}
         </Carousell.Item>
-        <Carousell.Item>
-          <div className="carousel-content">
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
-              quaerat facere nulla ab. Animi ab quod eligendi nobis eum magnam
-              dolor aliquam cum iure deserunt vitae ea, sint esse. Voluptate!
-            </p>
-          </div>
-
-          <Carousell.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousell.Caption>
-        </Carousell.Item>
+        
       </Carousell>
     </div>
   );

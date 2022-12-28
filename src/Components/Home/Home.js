@@ -81,9 +81,12 @@ const Home = () => {
 
       {/* Identify section */}
 
-
       <div className="identify-sec">
-        <h1 style={{textAlign:'center',color:"white"}}>We Create Identify...</h1><br /><br />
+        <h1 style={{ textAlign: "center", color: "white" }}>
+          We Create Identify...
+        </h1>
+        <br />
+        <br />
         <div className="identify container" style={{ textAlign: "center" }}>
           <div>
             <img
@@ -96,13 +99,14 @@ const Home = () => {
           <div style={{ textAlign: "center" }}>
             <h1>For You</h1>
             <p style={{ justifyContent: "center" }}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
-              sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!
+              Are you looking for a portfolio website that will make your
+              projects stand out? Look no further. Aqsa IT is offering a
+              portfolio website for sale, with everything you need to make your
+              projects shine. Our website is easy to use and customize, so you
+              can make it your own. It also comes with a range of features,
+              including a blog, contact page, and gallery. This is the perfect
+              way to show off your work and impress potential employers. Get
+              your portfolio website today!
             </p>
           </div>
         </div>
@@ -148,25 +152,27 @@ const Home = () => {
           <div style={{ textAlign: "center" }}>
             <h1>For Your Buissness</h1>
             <p style={{ justifyContent: "center" }}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
-              sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!
+              Are you looking to start an e-commerce business? Now's your chance
+              to get a jump on the competition. Aqsa IT is selling a fully
+              operational e-commerce website, loaded with features and ready to
+              go. We've put a lot of work into this website, and we're confident
+              that it can provide a great foundation for your business. It's a
+              turnkey solution, so you don't have to worry about a long setup
+              process. If you're interested, reach out to us and we'll send you
+              more information. We look forward to hearing from you!
             </p>
           </div>
         </div>
       </div>
 
-      
-
-{/* for small device */}
-
+      {/* for small device */}
 
       <div className="identify-sec-sm">
-      <h1 style={{textAlign:'center',color:"white"}}>We Create Identify...</h1><br /><br />
+        <h1 style={{ textAlign: "center", color: "white" }}>
+          We Create Identify...
+        </h1>
+        <br />
+        <br />
         <div className="identify-sm container" style={{ textAlign: "center" }}>
           <div>
             <img
@@ -179,13 +185,14 @@ const Home = () => {
           <div style={{ textAlign: "center" }}>
             <h1>For You</h1>
             <p style={{ justifyContent: "center" }}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
-              sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!
+              Are you looking for a portfolio website that will make your
+              projects stand out? Look no further. Aqsa IT is offering a
+              portfolio website for sale, with everything you need to make your
+              projects shine. Our website is easy to use and customize, so you
+              can make it your own. It also comes with a range of features,
+              including a blog, contact page, and gallery. This is the perfect
+              way to show off your work and impress potential employers. Get
+              your portfolio website today!
             </p>
           </div>
         </div>
@@ -195,17 +202,15 @@ const Home = () => {
         <br />
         <div className="identify-sm container">
           <div style={{ textAlign: "center" }}>
-
-          <img
+            <img
               className="img-fluid"
               src="/img/bikeShop.png"
               style={{ height: "400px", width: "350px" }}
               alt="portfolio"
             />
-            
           </div>
           <div style={{ textAlign: "center" }}>
-          <h1>For Your Shop</h1>
+            <h1>For Your Shop</h1>
             <p style={{ justifyContent: "center" }}>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
               sit est aut dolorem praesentium sunt fugiat tenetur ad esse
@@ -233,19 +238,18 @@ const Home = () => {
           <div style={{ textAlign: "center" }}>
             <h1>For Your Buissness</h1>
             <p style={{ justifyContent: "center" }}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
-              sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
-              magni!
+              Are you looking to start an e-commerce business? Now's your chance
+              to get a jump on the competition. Aqsa IT is selling a fully
+              operational e-commerce website, loaded with features and ready to
+              go. We've put a lot of work into this website, and we're confident
+              that it can provide a great foundation for your business. It's a
+              turnkey solution, so you don't have to worry about a long setup
+              process. If you're interested, reach out to us and we'll send you
+              more information. We look forward to hearing from you!
             </p>
           </div>
         </div>
       </div>
-
-
 
       <Review></Review>
     </div>

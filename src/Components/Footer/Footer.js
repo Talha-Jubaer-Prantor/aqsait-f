@@ -59,12 +59,11 @@ const Footer = () => {
 
             <div className="footer-bottom py-4">
                 <div className=" container text-center mx-auto">
-                    <h2 className="title-follow">Follow Us</h2>
+                    <h2 className="title-follow" style={{color:""}}>Follow Us</h2>
                     <div>
-                        <span><i className="footer-icon fab fa-facebook-square"></i></span>
-                        <span><i className="footer-icon fab fa-whatsapp-square"></i></span>
-                        <span><i className="footer-icon fab fa-instagram-square"></i></span>
-                        <span><i className="footer-icon fab fa-youtube-square"></i></span>
+                        <span><a href="https://www.facebook.com/Aqsait2426"><i className="footer-icon fab fa-facebook-square"></i></a></span>
+                        <span><a href="https://wa.me/8801760678306"><i className="footer-icon fab fa-whatsapp-square"></i></a></span>
+                        {/* <span><a href=""><i className="footer-icon fab fa-instagram-square"></i></a></span> */}
                     </div>
                     <p className="text-color pt-4">Copyright &copy; 2022. All rights reserved || Aqsa IT</p>
                 </div>

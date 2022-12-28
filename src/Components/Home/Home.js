@@ -3,10 +3,7 @@ import "./Home.css";
 import Carousel from "../Carousel/Carousel";
 import Navbar from "../Navbar/Navbar";
 import { Link } from "react-router-dom";
-
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+import Review from "../Review/Review";
 
 const Home = () => {
   return (
@@ -28,7 +25,9 @@ const Home = () => {
             trigger="loop"
             style={{ width: "100px", height: "100px" }}
           ></lord-icon>
-          <h3>PORTFOLIO</h3>Website
+          <h3>PORTFOLIO</h3>
+          <h6>Website</h6>
+          <span style={{ color: "#0ec60e" }}>Available</span>
         </Link>
 
         <Link
@@ -42,7 +41,9 @@ const Home = () => {
             trigger="loop"
             style={{ width: "100px", height: "100px" }}
           ></lord-icon>
-          <h3>BLOG</h3>Website
+          <h3>BLOG</h3>
+          <h6>Website</h6>
+          <span style={{ color: "#0ec60e" }}>Available</span>
         </Link>
 
         <Link
@@ -56,7 +57,9 @@ const Home = () => {
             trigger="loop"
             style={{ width: "100px", height: "100px" }}
           ></lord-icon>
-          <h3>NEWS</h3>Website
+          <h3>NEWS</h3>
+          <h6>Website</h6>
+          <span style={{ color: "#0ec60e" }}>Available</span>
         </Link>
 
         <Link
@@ -70,60 +73,91 @@ const Home = () => {
             trigger="loop"
             style={{ width: "100px", height: "100px" }}
           ></lord-icon>
-          <h3>E-COMMERCE</h3>Website
+          <h3>E-COMMERCE</h3>
+          <h6>Website</h6>
+          <span style={{ color: "rgb(198 14 19)" }}>Coming soon</span>
         </Link>
       </div>
 
-      {/* Customer Review */}
-      <div className="container" style={{paddingTop:"80px"}}>
-        <h1 style={{color:"white",textAlign:"center"}}>Customer Review</h1><br />
-        <OwlCarousel
-          className="owl-theme"
-          style={{ color: "white" }}
-          loop={true}
-          margin={20}
-          autoplay={true}
-          slideTransition={"linear"}
-          autoplayTimeout={4000}
-          smartSpeed={6000}
-          nav>
-          <div class="item">
-            <div className="review">
-              <h3>Name</h3>
-              <h6>Company</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iusto eos laborum soluta veritatis ipsam non nulla magni deserunt eum?</p> 
-            </div>
+      {/* Identify section */}
+
+
+      <div className="identify-sec">
+        <h1 style={{textAlign:'center',color:"white"}}>We Create Identify...</h1><br /><br />
+        <div className="identify container" style={{ textAlign: "center" }}>
+          <div>
+            <img
+              src="/img/portfolio.png"
+              style={{ height: "400px", width: "350px" }}
+              alt="portfolio"
+            />
           </div>
-          <div class="item">
-            <div className="review">
-            <h3>Name</h3>
-            <h6>Company</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iusto eos laborum soluta veritatis ipsam non nulla magni deserunt eum?</p> 
-            </div>
+          <div style={{ textAlign: "center" }}>
+            <h1>For You</h1>
+            <p style={{ justifyContent: "center" }}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+              sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!
+            </p>
           </div>
-          <div class="item">
-            <div className="review">
-            <h3>Name</h3>
-            <h6>Company</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iusto eos laborum soluta veritatis ipsam non nulla magni deserunt eum?</p> 
-            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="identify container">
+          <div style={{ textAlign: "center" }}>
+            <h1>For Your Shop</h1>
+            <p style={{ justifyContent: "center" }}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+              sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!
+            </p>
           </div>
-          <div class="item">
-            <div className="review">
-            <h3>Name</h3>
-            <h6>Company</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iusto eos laborum soluta veritatis ipsam non nulla magni deserunt eum?</p> 
-            </div>
+          <div style={{ textAlign: "center" }}>
+            <img
+              src="/img/bikeShop.png"
+              style={{ height: "400px", width: "350px" }}
+              alt="portfolio"
+            />
           </div>
-          <div class="item">
-            <div className="review">
-            <h3>Name</h3>
-            <h6>Company</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus iusto eos laborum soluta veritatis ipsam non nulla magni deserunt eum?</p> 
-            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="identify container">
+          <div style={{ textAlign: "center" }}>
+            <img
+              src="/img/e-commerce.png"
+              style={{ height: "400px", width: "500px" }}
+              alt="portfolio"
+            />
           </div>
-        </OwlCarousel>
+          <div style={{ textAlign: "center" }}>
+            <h1>For Your Buissness</h1>
+            <p style={{ justifyContent: "center" }}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+              sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!
+            </p>
+          </div>
+        </div>
       </div>
+
+      <Review></Review>
     </div>
   );
 };

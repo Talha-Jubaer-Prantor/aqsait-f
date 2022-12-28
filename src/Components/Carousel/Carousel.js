@@ -1,14 +1,18 @@
+
 import React from "react";
 import Carousell from "react-bootstrap/Carousel";
 import "./Carousel.css";
 
+
 const Carousel = () => {
+
+  
   return (
     <div style={{paddingTop:"30px"}}>
       <Carousell>
         <Carousell.Item>
           <div className="carousel-content">
-            <h1>Lorem ipsum dolor sit amet.</h1>
+          <h1>Lorem ipsum dolor sit amet.</h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
               quaerat facere nulla ab. Animi ab quod eligendi nobis eum magnam

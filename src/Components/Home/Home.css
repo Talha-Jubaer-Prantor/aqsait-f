@@ -11,7 +11,7 @@
     /* background-size: cover; */
     background-image: linear-gradient( to top right, #040633, #7a0c5c00 );
       background-color:#79085ba4 ;
-    height: 200px;
+    height: 240px;
     width: 200px;
     border-radius: 15px;
     text-align: center;
@@ -19,9 +19,15 @@
     margin-left: 25%;
 }
 
+.identify-sec{
+  margin-top: 60px;
+}
 
-.review{
-  text-align: center;
+.identify{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: white;
+  
 }
 
 

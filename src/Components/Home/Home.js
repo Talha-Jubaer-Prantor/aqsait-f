@@ -87,6 +87,7 @@ const Home = () => {
         <div className="identify container" style={{ textAlign: "center" }}>
           <div>
             <img
+              className="img-fluid"
               src="/img/portfolio.png"
               style={{ height: "400px", width: "350px" }}
               alt="portfolio"
@@ -124,6 +125,7 @@ const Home = () => {
           </div>
           <div style={{ textAlign: "center" }}>
             <img
+              className="img-fluid"
               src="/img/bikeShop.png"
               style={{ height: "400px", width: "350px" }}
               alt="portfolio"
@@ -137,6 +139,7 @@ const Home = () => {
         <div className="identify container">
           <div style={{ textAlign: "center" }}>
             <img
+              className="img-fluid"
               src="/img/e-commerce.png"
               style={{ height: "400px", width: "500px" }}
               alt="portfolio"
@@ -156,6 +159,90 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      
+
+{/* for small device */}
+
+
+      <div className="identify-sec-sm">
+        <div className="identify-sm container" style={{ textAlign: "center" }}>
+          <div>
+            <img
+              className="img-fluid"
+              src="/img/portfolio.png"
+              style={{ height: "400px", width: "350px" }}
+              alt="portfolio"
+            />
+          </div>
+          <div style={{ textAlign: "center" }}>
+            <h1>For You</h1>
+            <p style={{ justifyContent: "center" }}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+              sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="identify-sm container">
+          <div style={{ textAlign: "center" }}>
+            <h1>For Your Shop</h1>
+            <p style={{ justifyContent: "center" }}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+              sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!
+            </p>
+          </div>
+          <div style={{ textAlign: "center" }}>
+            <img
+              className="img-fluid"
+              src="/img/bikeShop.png"
+              style={{ height: "400px", width: "350px" }}
+              alt="portfolio"
+            />
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="identify-sm container">
+          <div style={{ textAlign: "center" }}>
+            <img
+              className="img-fluid"
+              src="/img/e-commerce.png"
+              style={{ height: "400px", width: "500px" }}
+              alt="portfolio"
+            />
+          </div>
+          <div style={{ textAlign: "center" }}>
+            <h1>For Your Buissness</h1>
+            <p style={{ justifyContent: "center" }}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+              sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
+              magni!
+            </p>
+          </div>
+        </div>
+      </div>
+
+
 
       <Review></Review>
     </div>

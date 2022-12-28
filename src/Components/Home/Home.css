@@ -23,13 +23,21 @@
   margin-top: 60px;
 }
 
+.identify-sec-sm{
+  /* margin-top: 60px; */
+}
+
+
 .identify{
   display: grid;
   grid-template-columns: 50% 50%;
   color: white;
   
 }
-
+.identify-sm{
+  display: none;
+  
+}
 
 
 
@@ -83,6 +91,20 @@
         color: rgb(255, 255, 255);
         margin-left: 8%;
     }
+
+    .identify{
+      /* display: grid;
+      grid-template-columns: 100% ;
+      color: white; */
+      display: none;
+    }
+    .identify-sm{
+      display: grid;
+      grid-template-columns: 100% ;
+      color: white;
+      
+    }
+    
 
   }
 

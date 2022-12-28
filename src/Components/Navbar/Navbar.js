@@ -23,7 +23,7 @@ const Navbar = () => {
       <div class="navbar-nav">
         {/* <a class="nav-link active text-light" aria-current="page" href="/"><b>Home</b></a> */}
         {/* <a class="nav-link text-light" href="/"><b>Features </b></a> */}
-        <Link class="nav-link text-light" to="/about"><b>About</b></Link>
+        {/* <Link class="nav-link text-light" to="/about"><b>About</b></Link> */}
         <Link class="nav-link text-light" to="/contact"><b>Contact Us</b></Link>
       </div>
     </div>

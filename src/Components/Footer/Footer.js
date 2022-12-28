@@ -61,7 +61,7 @@ const Footer = () => {
                         <span><a href="https://wa.me/8801760678306"><i className="footer-icon fab fa-whatsapp-square"></i></a></span>
                         {/* <span><a href=""><i className="footer-icon fab fa-instagram-square"></i></a></span> */}
                     </div>
-                    <p className="text-color pt-4">Copyright &copy; 2022. All rights reserved || Aqsa IT</p>
+                    <p className="text-color pt-4">Copyright &copy; 2023. All rights reserved || Aqsa IT</p>
                 </div>
             </div>
         </div>

@@ -10,29 +10,22 @@ const Contact = () => {
                 <div className="container row gx-4 mx-auto">
                     <div className="col-lg-7 col-md-7 col-12">
                         <form className="border p-5">
-                            <h1 className="text-start">Interested in <span style={{ color: 'orange' }}>discussing ?</span></h1>
+                            <h1 style={{color:"white"}} >Interested in discussing ?</h1>
                             <p style={{ fontSize: '15px', marginBottom: '50px', color: 'gray' }} className="text-start fw-bold">You Could fill-up this form to contact with us.</p>
                             <div className="my-4">
                                 <input type="text" className="form-control" placeholder="Your Name" />
                             </div>
                             <div className=" my-4">
-                                <input type="text" className="form-control" placeholder="Your Address" />
+                                <input type="text" className="form-control" placeholder="Your Email Address" />
                             </div>
                             <div className="my-4 ">
                                 <input type="number" className="form-control" placeholder="Phone Number" />
                             </div>
-                            <div className="form-row row my-4">
-                                <div className=" col-md-8">
-                                    <input type="text" placeholder="City" className="form-control" />
-                                </div>
-                                <div className=" col-md-4">
-                                    <input type="number" placeholder="Zip Code" className="form-control" />
-                                </div>
-                            </div>
+                            
                             <div className="my-4">
                                 <textarea className="form-control" name="comment" id="" cols="30" rows="3" placeholder="Enter Message"></textarea>
                             </div>
-                            <button style={{ backgroundColor: '#141738', color: 'goldenrod' }} type="submit" className="btn submit-btn">Sign in</button>
+                            <button  type="submit" className="btn  btn-success" disabled>Sent</button>
                         </form>
                     </div>
 

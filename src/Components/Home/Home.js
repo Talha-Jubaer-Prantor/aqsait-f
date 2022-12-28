@@ -166,6 +166,7 @@ const Home = () => {
 
 
       <div className="identify-sec-sm">
+      <h1 style={{textAlign:'center',color:"white"}}>We Create Identify...</h1><br /><br />
         <div className="identify-sm container" style={{ textAlign: "center" }}>
           <div>
             <img
@@ -194,7 +195,17 @@ const Home = () => {
         <br />
         <div className="identify-sm container">
           <div style={{ textAlign: "center" }}>
-            <h1>For Your Shop</h1>
+
+          <img
+              className="img-fluid"
+              src="/img/bikeShop.png"
+              style={{ height: "400px", width: "350px" }}
+              alt="portfolio"
+            />
+            
+          </div>
+          <div style={{ textAlign: "center" }}>
+          <h1>For Your Shop</h1>
             <p style={{ justifyContent: "center" }}>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
               sit est aut dolorem praesentium sunt fugiat tenetur ad esse
@@ -204,14 +215,6 @@ const Home = () => {
               Facere sit est aut dolorem praesentium sunt fugiat tenetur ad esse
               magni!
             </p>
-          </div>
-          <div style={{ textAlign: "center" }}>
-            <img
-              className="img-fluid"
-              src="/img/bikeShop.png"
-              style={{ height: "400px", width: "350px" }}
-              alt="portfolio"
-            />
           </div>
         </div>
         <br />

@@ -1,5 +1,10 @@
 .footer-container{
-    background-image: linear-gradient(blue, purple);
+    background-color: #040633;
+    background-image:
+      linear-gradient(
+        to top right, 
+        #040633,  #7a0c5c
+      );
     padding-top: 40px;
 }
 .text-color{

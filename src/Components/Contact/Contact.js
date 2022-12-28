@@ -35,7 +35,7 @@ const Contact = () => {
                     </div>
 
                     <div className="col-lg-5 col-md-5 col-12 mt-4">
-                        <div style={{ backgroundColor: '#4a2796' }} className="row my-3 py-3 rounded">
+                        <div style={{ backgroundColor: '#ffffff42' }} className="row my-3 py-3 rounded">
                             <div className="col-3 my-3 border-end border-2 d-flex align-items-center justify-content-center">
                                 <span className="p-4 text-white"><i className="fas fa-phone-square-alt fs-1 "></i></span>
                             </div>
@@ -44,7 +44,7 @@ const Contact = () => {
                                 <p className="text-start"><a className="text-decoration-none fs-5 text-white" aria-current="page" href="tel:00123456789">00123456789</a></p>
                             </div>
                         </div>
-                        <div style={{ backgroundColor: '#4a2796' }} className="row my-3 py-3 rounded">
+                        <div style={{ backgroundColor: '#ffffff42' }} className="row my-3 py-3 rounded">
                             <div className="col-3 my-3 border-end border-2 d-flex align-items-center justify-content-center">
                                 <span className="p-4 text-white"><i className="fas fa-envelope-square fs-1"></i></span>
                             </div>
@@ -53,7 +53,7 @@ const Contact = () => {
                                 <p className="text-white text-start fs-5">info@shoe_valy.com</p>
                             </div>
                         </div>
-                        <div style={{ backgroundColor: '#4a2796' }} className="row my-3 py-3 rounded">
+                        <div style={{ backgroundColor: '#ffffff42' }} className="row my-3 py-3 rounded">
                             <div className="col-3 my-3 border-end border-2 d-flex align-items-center justify-content-center">
                                 <span className="p-4 text-white"><i className="fas fa-globe fs-1"></i></span>
                             </div>
